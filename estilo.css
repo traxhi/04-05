@@ -1,0 +1,25 @@
+.janela
+{
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    margin-top: -100px;
+    margin-left: -150px;
+    border: solid;
+    display: none;
+}
+
+@media print
+{
+    .BT
+    {
+        display: none;
+    }
+    .D2
+    {
+        display: none;
+    }
+}
